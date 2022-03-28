@@ -1,0 +1,71 @@
+<!-- jquery element selector
+ -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	
+</head>
+<body>
+	
+
+	<div class="container">
+		<form id="userData">
+		<input type="text" name="uname" class="form-control" />
+		<input type="text" name="uage" class="form-control" />
+		<input type="text" name="uemail" class="form-control" />
+		<button type="button" class="btn btn-dark">Send</button>
+		</form>
+	</div>
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+	<script type="text/javascript">
+		$(function(){
+			//$.getJSON()
+			$(".btn").click(function(){
+				ans = $("#userData").serialize();
+				console.log(ans);
+				//uname=xy&uage=20&uemail=jj
+
+				$.ajax({
+					type:"post",
+					data:ans,
+					// data:{uname:"test",uage:10,uemail:'j@j.com'},
+					url:"http://localhost:3000/userinfo",
+					success:function(res){
+						console.log(res);
+					},
+					error:function(err){
+						console.log(err);
+					}
+				})
+
+				// $.post("urlpath",data,callback)
+				$.post("http://localhost:3000/userinfo",ans,function(res){
+					console.log(res);
+				},function(error){
+					console.log(error);
+				})
+
+				//https://www.google.co.in/search?q=hello&source=hp&ei=1ozuYOTWKMePr7wP0qGQiAc&iflsig=AINFCbYAAAAAYO6a5jYo5i95nNN5_zj3JI8kwITtXazr&oq=hello&gs_lcp=Cgdnd3Mtd2l6EAMyCAguELEDEJMCMgUIABCxAzIFCC4QsQMyAggAMgUILhCxAzIFCAAQsQMyBQgAELEDMgIIADIFCAAQsQMyBQguELEDOgsILhCxAxDHARCjAjoICAAQsQMQgwE6DgguELEDEIMBEMcBEKMCOgIILjoFCC4QkwI6CAguELEDEIMBUMMQWMMWYJobaABwAHgBgAH-AogBkgeSAQcwLjQuMC4xmAEAoAEBqgEHZ3dzLXdpeg&sclient=gws-wiz&ved=0ahUKEwjkmZrk_-HxAhXHx4sBHdIQBHEQ4dUDCAY&uact=5
+			})
+		});
+
+		// page,API,SERVER SIDE WEB PAGE Rec,Send --- $.get(),$.post(),$.ajax()
+		// IN JSON FORMAT --- $.getJSON()
+		/*
+			path : txt file,API, serverside web page
+			$.get(path , callback - response,error)
+			$.ajax() , type:get
+
+			$.post(path,data,callback - response,error)
+			$.ajax() , type:post
+
+			$.getJSON(path , callback)
+		*/
+	</script>
+	
+</body>
+</html>

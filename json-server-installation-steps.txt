@@ -1,0 +1,18 @@
+https://nodejs.org/en/download/
+
+install nodejs -- web server
+
+terminal -- 
+node --version
+
+npm --version
+
+npm i -g json-server
+
+C:\Users\user\AppData\Roaming\npm\node_modules
+
+https://github.com/typicode/json-server
+
+
+add record in MOngoDB - Node js --- using $.ajax()
+search value from mongodb - nide js -- using $.ajax()
