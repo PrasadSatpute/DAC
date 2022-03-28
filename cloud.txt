@@ -1,0 +1,82 @@
+Cloud
+
+- Explain cloud computing and benefits of cloud computing
+- What are the different services in cloud computing? Explain working of them.
+   - IaaS, PaaS, SaaS, FaaS (serverless computing)
+- Mention what is Hypervisor in cloud computing and their types?
+- What is the difference between elasticity and scalability in cloud computing?
+- Explain different models for deployment in cloud computing?
+  - private, public, hybrid
+
+**** MCQ ******
+
+- Which one of the following options can be considered as the Cloud?
+A. Hadoop
+B. Intranet
+C. Web Applications
+* D. All of the mentioned
+
+
+- Cloud computing is a kind of abstraction which is based on the notion of combining physical resources and represents them as _______ resources to users.
+A. Real
+B. Cloud
+* C. Virtual
+D. none of the mentioned
+
+
+- A _______ service provider gets the same benefits from a composable system that a user does.
+A. CaaS
+B. AaaS
+* C. PaaS
+D. All of the mentioned
+
+- A service provider reselling a _______ may have the option to offer one module to customize the information.
+A. CaaS
+B. AaaS
+C. PaaS
+* D. SaaS
+
+- Communication between services is done widely using _______ protocol.
+A. REST
+* B. SOAP
+C. RESTful
+D. None of the mentioned
+
+
+- Amazon Machine Images are virtual appliances that have been packaged to run on the grid of ____ nodes.
+A. Ben
+* B. Xen
+C. Ken
+D. Zen
+
+- Which of the following can be considered PaaS offering?
+* A. Google Maps
+B. Gmail
+C. Google Earth
+D. All of the mentioned
+
+- Rackspace Cloud Service is an example of _____________
+* A. IaaS
+B. SaaS
+C. PaaS
+D. All of the mentioned
+
+
+- An operating system running on a Type ______ VM is full virtualization.
+* A. 1
+B. 2
+C. 3
+D. All of the mentioned
+
+
+
+
+
+
+
+
+
+
+
+
+

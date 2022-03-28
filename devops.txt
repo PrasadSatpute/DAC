@@ -1,0 +1,107 @@
+DevOps
+
+- How is DevOps different from Agile / SDLC?
+- I want to move or copy Jenkins from one server to another. Is it possible? If yes, how?
+- What is docker swarm?
+- What is difference between docker image and docker container?
+- What is the difference between docker swarm and Kubernetes?
+- What do you mean by cluster ?
+
+
+- Which of the following statement best describes the goal of DevOps?
+* A. Establish an environment to release more reliable applications faster
+B. Establish an environment where the release of applications is valued more than its quality
+C. Establish an environment where application development performs all the operation tasks
+D. Establish an environment where change management does not control application releases
+
+
+- DevOps means..........
+A. Developers taking over all Operations tasks.
+B. Automating the process of software delivery and infrastructure changes.
+* C. The collaboration and communication of both software developers and other information-technology (IT) professional while automating the process of software delivery and infrastructure changes.
+D. The collaboration and communication of just software developers and operations staff while automating the process software delivery and infrastructure changes.
+
+- .............. command is used for stopping a running container.
+A. $ docker kill <container_id>
+B. $ docker rm <container_id>
+* C. $ docker stop <container_id>
+D. $ docker start <container_id>
+
+- Does Kubernetes use Docker?
+* A. Yes
+B. No
+
+
+- Which of the following is the native clustering for Docker?
+A. Docker Hub
+B. Docker Cloud
+* C. Docker Swarm
+D. Docker Compose
+
+
+- What do you mean by Jenkins?
+A. Jenkins is an open source Continuous and Integration.
+* B. Jenkins is an open source Continuous Integration and Continuous Delivery Tool.
+C. Jenkins is an open source Continuous and only Continuous Delivery Tool.
+D. None of these
+
+- Can we remove a stopped container from Docker?
+* A. Yes
+B. No
+
+- What are the key components of DevOps?
+A. Continuous Integration
+B. Continuous Testing
+C. Continuous Delivery & Monitoring
+* D. All of the above
+
+- DevOps is an extension of ...............
+A. QA
+* B. Agile
+C. Waterfall
+D. None of the above
+
+- In a DevOps organization which one of the following elements does not directly contribute to your value stream?
+A. DevOps team.
+B. Stakeholders of downstream work centers.
+* C. Errors, incidents and fixes.
+D. Clients
+
+
+- What is NOT an appropriate predictors of IT performance in a DevOps environment?
+A. Changes approved by an external team members
+B. High-trust organizational culture
+C. Proactive monitoring
+* D. Version control of all artifacts
+
+- monitoring tools
+  - nagios
+  - slunk
+  - dataDog
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
